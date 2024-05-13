@@ -9,7 +9,6 @@ import profile from './image copy.png';
 const CV = () => (
   <div className="bg-gray-100 min-h-screen flex justify-center items-center">
     <div className="max-w-4xl w-full bg-white p-8 rounded-lg shadow-lg">
-      <h1 className="text-3xl font-bold mb-4">Shankar Bhandari's CV</h1>
       <div className="flex items-center mb-4">
         <div className="mr-4">
           <Image src={profile} alt="Shankar Bhandari" width={80} height={80} className="rounded-full" />
